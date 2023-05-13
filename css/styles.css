@@ -650,7 +650,8 @@ margin-right: 120px;
   display: flex;
   flex-wrap: wrap;
   row-gap: 48px;
-  column-gap: 24px
+  column-gap: 24px;
+
 }
 .service-link{
   display: block;
@@ -685,14 +686,11 @@ margin-right: 120px;
 }
 
 
-.thumb{
-  position: relative;
-}
-
 .portfolio-thumb{
   position: relative;
   overflow: hidden;
 }
+
 
 /*========= OVERLAY=======*/
 
