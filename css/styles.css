@@ -840,14 +840,11 @@ width: 100%;
 }
 
 
-.modal-close-btn:hover{
+.modal-close-btn:hover,
+.modal-close-btn:focus
+{
   background-color: #404bbf;
 border:none;
-}
-
-.modal-close-btn:focus {
-  background-color: #404bbf;
-  border:none;
 }
 
 
@@ -857,6 +854,7 @@ border:none;
 }
 
 
-.modal-icon-btn:hover{
+.modal-close-btn:hover .modal-icon-btn,
+.modal-close-btn:focus .modal-icon-btn{
   fill: #ffffff;
 }
