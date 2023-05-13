@@ -785,12 +785,11 @@ width: 100%;
 }
 
 .backdrop.is-hidden{
-  opacity: 0;
+
   visibility: hidden;
+  opacity: 0;
   pointer-events: none;
-  transition-delay: 250ms;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-  visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ 
 }
 
 
@@ -833,7 +832,6 @@ width: 100%;
     justify-content: center;
     padding: 0; 
     background-color: #e7e9fc;
-    color: #404bbf;
 
     border: 1px solid rgba(0, 0, 0, 0.1);
     cursor: pointer;
@@ -845,16 +843,11 @@ width: 100%;
 .model-close-button:hover,
 .model-close-button:focus {
   background-color: #404bbf;
-  color:#404bbf;
 border: none;
-transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-   visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
 .modal-icon-btn {
-  border: none;
-  background-color: #404bbf;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -862,9 +855,7 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
 .modal-icon-btn:hover,
 .modal-icon-btn:focus{
  
-  border: none;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-   visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #ffffff;
 }
  
 
