@@ -857,3 +857,6 @@ border:none;
 }
 
 
+.modal-icon-btn:hover{
+  fill: #ffffff;
+}
