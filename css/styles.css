@@ -125,7 +125,7 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  content: '';
 
  position: absolute;
-bottom: 15px;
+ bottom: -1px;
 left: 0;
 
 display: block;
@@ -868,7 +868,8 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
 }
  
 
-.model-close-button:hover .modal-icon-btn:hover,
-.model-close-button:focus .modal-icon-btn:focus{
-}
+.modal-icon-btn:hover,
+.modal-icon-btn:focus{
+fill: #ffffff;
 
+}
