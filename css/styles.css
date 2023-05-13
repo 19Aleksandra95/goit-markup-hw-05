@@ -840,8 +840,8 @@ width: 100%;
 }
 
 
-.modal-close-btn:hover,
-.modal-close-btn:focus
+.modal-icon-btn:hover,
+.modal-icon-btn:focus
 {
   background-color: #404bbf;
 border:none;
