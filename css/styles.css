@@ -710,9 +710,6 @@ margin-right: 120px;
   letter-spacing: 0.02em;
 }
 
-.service-list-item:hover .overlay{
-  transition: translateY(0);
-}
 
 
 .portfolio-thumb{
@@ -742,8 +739,8 @@ margin-right: 120px;
 
 
 
-.service-list:hover  .overlay-text,
-.service-list:focus  .overlay-text{
+.service-link:hover  .overlay-text,
+.service-link:focus  .overlay-text{
   transform: translateY(0%);
 }
 
