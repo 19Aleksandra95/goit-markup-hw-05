@@ -747,6 +747,9 @@ margin-right: 120px;
   transform: translateY(0%);
 }
 
+.overlay-text:focus{
+  transform: translateY(0%);s
+}
 
 /*====================
      MODAL WINDOW 
