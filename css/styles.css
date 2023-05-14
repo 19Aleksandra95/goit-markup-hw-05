@@ -742,14 +742,12 @@ margin-right: 120px;
 
 
 
-.service-list-item:hover  .overlay-text,
-.service-list-item:focus  .overlay-text{
+.service-list:hover  .overlay-text,
+.service-list:focus  .overlay-text{
   transform: translateY(0%);
 }
 
-.overlay-text:focus{
-  transform: translateY(0%);s
-}
+
 
 /*====================
      MODAL WINDOW 
